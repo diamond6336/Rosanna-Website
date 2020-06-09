@@ -1,0 +1,78 @@
+.header {
+    width: 100%;
+    height: 600px;
+    margin: 0px;
+    background-image: url(headerscanwhite.png);
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.logo {
+    background-image: url(rosannalogo.png);
+    height: 360px;
+    width: 640px;
+    background-position: center;
+    background-size: cover;
+}
+
+nav {
+    text-align: center;
+    display: inline;
+    align-content: center;
+}
+
+ul {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0px;
+}
+
+li a {
+    display: inline-block;
+    color: black;
+    background-color: white;
+    text-align:center;
+    padding: 12px;
+    font-family: Ubuntu, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+li {
+    display: inline;
+}
+
+li a:hover {
+    color: #f8a3bd;
+}
+
+.active {
+    color: red;
+}
+
+.shoplogo {
+    font-size: 100px;
+    font-family: Ubuntu, sans-serif;
+    padding: 10px 20px ;
+}
+
+.shopheader {
+    width: 100%;
+    height: 200px;
+    margin: 0px;
+    background-image: url(headerscanwhite.png);
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
